@@ -1,0 +1,13 @@
+selenium
+pytest
+pytest-selenium
+pytest-html
+webdriver-manager
+Pillow
+pytest-cov
+pytz
+
+
+#pip3 install -r requirements.txt
+
+
