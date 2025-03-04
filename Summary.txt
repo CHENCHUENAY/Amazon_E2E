@@ -62,10 +62,7 @@ Amazon_E2E
 ✅ **Exception Handling** for Prime popups.
 ✅ **Scalable Test Cases** with reusable locators.
 
-## Next Steps
-- Add **Logging & Reporting** (`pytest-html`, `Allure`).
-- Capture **Screenshots on Failure**.
-- Add **Assertions** to validate each step.
+note: replace id and pw in UtilitiesLocators.py
 
 ---
 
