@@ -49,7 +49,7 @@ class TestLogin:
         except:
             print("no Prime suggestion popup ")
             pass
-        driver.save_screenshot("reports/screenshots/final_result.png")
+        driver.save_screenshot("/screenshots/final_result.png")
 
         time.sleep(5)  # Just to confirm the final result
 
