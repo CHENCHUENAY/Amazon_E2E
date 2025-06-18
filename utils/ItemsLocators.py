@@ -1,6 +1,6 @@
 import conftest
 class ItemsLocators:
-    # oneplus_13r = '13R 12/256GB Nebula Noir'
-    oneplus_13r = "//a[contains(@class, 'a-link-normal') and contains(@href, '9000020642')]"
+    # pen = "//a[contains(@class, 'a-link-normal') and contains(@href, '9000020642')]"
+    pen = "//h2[@aria-label='Frontier Matte Black (Gold Nib) GT Fountain Pen, 1 Count (Pack of 1) (9000020642)']"
 
-    # Locator for the mobile title using partial text match
+    # Locator for the pen title using partial text match
