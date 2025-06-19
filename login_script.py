@@ -33,7 +33,7 @@ except:
     pass
 
 #  Give time to log in manually
-time.sleep(40)
+time.sleep(100)
 
 # Save cookies to file
 with open("Login_cookies.pkl", "wb") as f:

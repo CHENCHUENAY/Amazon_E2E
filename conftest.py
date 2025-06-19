@@ -1,4 +1,5 @@
 import time
+import pickle
 import pytest
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -13,12 +14,22 @@ from selenium.webdriver.common.by import By
 # Fixture for setup and teardown
 @pytest.fixture(scope="module")
 def setup_teardown():
-
     # Set up the Chrome driver
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-    driver.maximize_window()  # Maximize the browser window
-    # driver.implicitly_wait(10)  # Wait implicitly for elements to be found
+    driver.maximize_window()
     driver.get("https://www.amazon.ae")
+
+    # Load cookies from pickle file (if exists)
+    try:
+        with open("Login_cookies.pkl", "rb") as f:
+            cookies = pickle.load(f)
+        for cookie in cookies:
+            driver.add_cookie(cookie)
+        driver.refresh()
+        print("✅ Cookies loaded successfully.")
+    except FileNotFoundError:
+        print(" Login_cookies.pkl not found. Proceeding without loading cookies.")
+
     yield driver  # Yield control to the test function
 
     # Clean up
