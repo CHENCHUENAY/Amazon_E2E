@@ -26,7 +26,7 @@ def setup_teardown():
         for cookie in cookies:
             driver.add_cookie(cookie)
         driver.refresh()
-        print("✅ Cookies loaded successfully.")
+        print(" Cookies loaded successfully.")
     except FileNotFoundError:
         print(" Login_cookies.pkl not found. Proceeding without loading cookies.")
 
