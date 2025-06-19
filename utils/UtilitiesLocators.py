@@ -13,5 +13,5 @@ class UtilitiesLocators:
 
     # Credentials1@
     useridd='chenchuenay@gmail.com'
-    pw='ChenchuEnay1@'
+    pw='Chenchu'
 
