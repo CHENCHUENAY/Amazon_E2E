@@ -32,8 +32,10 @@ try:
 except:
     pass
 
-#  Give time to log in manually
-time.sleep(100)
+#  Give time to log in manually only for one time per new credentials
+time.sleep(40)
+driver.save_screenshot('screenshots/login_cookie_sucess.png')
+
 
 # Save cookies to file
 with open("Login_cookies.pkl", "wb") as f:
@@ -41,5 +43,4 @@ with open("Login_cookies.pkl", "wb") as f:
     print("Cookies saved to Login_cookies.pkl")
 
 driver.quit()
-
 

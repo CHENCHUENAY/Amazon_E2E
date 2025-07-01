@@ -33,9 +33,9 @@ class TestLogin:
 
             # Step 3: Save cookies for future use
             time.sleep(60)
-            with open("Login_cookies.pkl", "wb") as f:
+            with open("Login_cookiesss.pkl", "wb") as f:
                 pickle.dump(driver.get_cookies(), f)
-                print("Cookies saved to Login_cookies.pkl")
+                print("Cookies saved to Login_cookiesss.pkl")
         except:
             pass
         # Step 4: Search for an item
@@ -67,6 +67,9 @@ class TestLogin:
         driver.save_screenshot(f"screenshots/passed_{timestamp}.png")
 
         time.sleep(2)  # Just to confirm the final result
+
+
+
 
 
 

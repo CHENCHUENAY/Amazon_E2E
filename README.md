@@ -38,6 +38,7 @@ Amazon_E2E/
 ├── login_script.py            # Cookie save/load logic
 ├── requirements.txt           # Project dependencies
 │
+├── screenshots
 ├── tests/
 │   └── TestE2E.py             # Main end-to-end test
 │
@@ -60,7 +61,7 @@ Amazon_E2E/
 - **Automation:** Selenium WebDriver
 - **Test Runner:** Pytest
 - **Framework:** Page Object Model (POM)
-- **Extras:** `pickle`, logging, exception handling
+- **Extras:** `pickle`, screenshots, exception handling
 
 ---
 
@@ -95,11 +96,19 @@ pytest tests/TestE2E.py
 
 ---
 
-## 📸 Screenshots (Optional)
-You can include screenshots of:
-- Passed test logs  
-- Screenshot on test failure  
-- Structure of cookie file
+## 📸 Screenshots
+___
+The following screenshots have been added to the screenshots/ folder to visually support the test flow and reports:
+>	•	✅ login_cookie_sucess.png – After successful login and cookie save
+>	•	🖥️ Login_cookies_terminal.png – Terminal output confirming cookies saved
+>	•	🛒 passed_01-07-25_14-34-18.png – End-to-end test successful (Product flow)
+>	•	🛒 passed_01-07-25_14-44-10.png – Another successful run of the test flow
+>	•	❌ Test_failed.png – Screenshot captured when test failed (simulated failure)
+>	•	📄 Test_Failure_html_report.png – HTML report showing failed test case
+>	•	🖥️ Test_failure_terminal.png – Terminal output for failed test case
+>	•	✅ test_passed_01-07-25_14-15-05.png – Successful test run screenshot
+>	•	📄 Test_passed_html_report.png – HTML report showing successful test case
+>	•	🖥️ test_passed_terminal.png – Terminal output for a passed test run
 
 ---
 
