@@ -69,7 +69,7 @@ Amazon_E2E/
 
 1. **Clone the Repo**
 ```bash
-git clone https://github.com/yourusername/Amazon_E2E.git
+git clone https://github.com/chenchuenay/Amazon_E2E.git
 cd Amazon_E2E
 ```
 
