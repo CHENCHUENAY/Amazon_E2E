@@ -25,7 +25,7 @@ This project simulates a real-world **end-to-end test** from login to checkout.
 2. **Search & Add to Cart**  
    - Searches product, selects the first result, adds to cart.
 3. **Checkout**  
-   - Proceeds to checkout, selects COD (Cash on Delivery) and confirms (mock).
+   - Proceeds to checkout
 
 ---
 
