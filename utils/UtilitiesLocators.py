@@ -9,7 +9,7 @@ class UtilitiesLocators:
 
     item_name="Parker Frontier Matte Black (Gold Nib) GT Fountain Pen, 1 Count (Pack of 1) (9000020642)"
 
-    # Credentials1@
+    # Replace with your Credentials
     useridd='username'
     pw='password@'
 
