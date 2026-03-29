@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+screenshots/
+reports/
+sessions/
+.env
+.github
+.idea/
+.idea/
+.DS_Store
+.DS_Store
+.idea/
